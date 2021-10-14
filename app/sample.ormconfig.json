@@ -1,0 +1,14 @@
+{
+  "type": "mysql",
+  "host": "",
+  "port": ,
+  "username": "",
+  "password": "",
+  "database": "",
+  "entities": ["dist/**/*.entity.js"],
+  "migrations": ["dist/migrations/**/*.js"],
+  "logging": true,
+  "synchronize": false,
+  "migrationsRun": false
+}
+
