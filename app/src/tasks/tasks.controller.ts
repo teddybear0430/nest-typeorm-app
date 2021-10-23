@@ -10,4 +10,9 @@ export class TasksController {
   async findAll(): Promise<Task[]> {
     return this.taskService.findAll();
   }
+
+  @Get(':id')
+  async find(id: string): Promise<Task> {
+    return this.taskService.find(id);
+  }
 }
